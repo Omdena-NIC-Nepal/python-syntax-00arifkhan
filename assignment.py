@@ -27,7 +27,7 @@ def list_operations(numbers):
 
 
 def dict_operations(students_dict):
-    student=[key for key, value in students_dict.items() if values>80]
+    student=[key for key, values in students_dict.items() if values>80]
     return(student)
  
 
